@@ -1,0 +1,60 @@
+body{
+  margin: 0 auto;
+  background-color: #e3d5ca;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+#navbar{
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+  background-color: #d5bdaf;
+  align-items: center;
+}
+.navlinks{
+  display: flex;
+  list-style-type: none;
+}
+li{
+  display: flex;
+  margin-right: 1rem;
+}
+#image{
+  height: 200px;
+  width: 200px;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  margin-top: 100px;
+}
+#mainimg{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#aboutmetxt{
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 25%;
+  text-align: center;
+}
+.projects{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  
+
+  
+}
+#card{
+  flex-wrap: wrap;
+}
+#contactme{
+  text-align: center;
+}
