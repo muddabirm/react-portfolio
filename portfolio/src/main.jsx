@@ -2,11 +2,11 @@ import {RouterProvider,createBrowserRouter  } from "react-router-dom";
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import Aboutme from './pages/aboutme.jsx'
-//import Navbar from './components/navbar.jsx'
 import Projects from './pages/projects.jsx'
-import Contact from "./pages/contact.jsx";
+import Contact from "./pages/contact.jsx"
+import Home from "./pages/home.jsx"
 
-
+// router paths
 const router = createBrowserRouter([
   {
     path: '/',
@@ -14,8 +14,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        path: '/projects',
-        element: <Projects />
+        element: <Home />
       },
       {
         path: '/about',
@@ -24,6 +23,10 @@ const router = createBrowserRouter([
       {
         path:'/contact',
         element: <Contact />
+      },
+      {
+        path:'/projects',
+        element: <Projects />
       }
     ]
   }

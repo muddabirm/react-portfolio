@@ -1,5 +1,6 @@
 export default function Aboutme() {
     return(
+        //about me page
     <section>
     <div id="mainimg">
         <img src="./images/placeholder.png" alt="placeholder image for profile" id="image"/>

@@ -3,3 +3,5 @@ export default function Contact() {
         <div id="contactme">contact me at: muddabirm@gmail.com</div>
     )
 }
+
+//contact page

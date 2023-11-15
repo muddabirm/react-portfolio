@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+//navbar link used to navigate the pages
 
 export default function Navba() {
 return (
