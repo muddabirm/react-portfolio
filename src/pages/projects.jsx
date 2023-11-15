@@ -14,3 +14,4 @@ export default function Projects() {
     </section>
     )
 }
+//project page
